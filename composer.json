@@ -1,0 +1,22 @@
+{
+    "name": "altayeb-rabeh/phplite",
+    "description": "Phplite framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Altayeb Rabeh",
+            "email": "altayebrabeh@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.4.3",
+        "altayeb-rabeh/framework": "1.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
